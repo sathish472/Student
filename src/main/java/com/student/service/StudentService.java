@@ -1,12 +1,9 @@
-package com.student.controller.service;
+package com.student.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpMethod;
-import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
-import org.springframework.util.StringUtils;
 
 import com.student.entity.Student;
 import com.student.exception.EmptyInputException;
